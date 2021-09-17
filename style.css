@@ -1,0 +1,603 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Alata', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.ways{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.ways-picture{
+  /* border: 2px solid black; */
+  width: 80px;
+  height: 80px;
+}
+.sub-way{
+  border: 2px solid whitesmoke;
+  background-color: white;
+  border-radius: 10px;
+  width: 30%;
+  padding: 4% 2%;
+  margin: 2rem 0;
+}
+.sub-way h3{
+  color: #070647;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.para{
+  width: 80%;
+  margin: 0 auto;
+}
+.journey-way{
+  /* border: 2px solid black; */
+  text-align: center;
+  padding: 1% 0;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  background-image: url(img/Map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.journey-way h1{
+  color: #070647;
+  font-size: 3rem;
+}
+.sub-way-start{
+  border: 2px solid #070647;
+  width: 8rem;
+  padding: 1%;
+  border-radius: 50rem;
+  margin: 0 auto;
+}
+.sub-wayy-start{
+  border: 2px solid #070647;
+  width: 8rem;
+  padding: 1%;
+  text-align: center;
+  border-radius: 50rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.logo img {
+  position: absolute;
+  top: 15px;
+  left: 50px;
+}
+.top-wrapper {
+  /* border: 1px solid #eaf6f6;*/
+
+  /*background-color: #eaf6f6;*/
+
+  margin: 0 auto;
+}
+#sign-in{
+  border: 2px solid #2fa5a9;
+  padding: .6%;
+  border-radius: 50rem;
+}
+.nav {
+  border-bottom: 1px solid #2fa5a9;
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+.menu {
+  width: 100%;
+  margin: 0 50px 0 0;
+}
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: black;
+  margin: 0 20px;
+  line-height: 50px;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 50x;
+  display: none;
+  width: 26px;
+  float: right;
+}
+#toggle {
+  display: none;
+}
+.top-wrapper {
+  /* border: 2px solid green;*/
+  width: 100%;
+  padding-top: 2rem;
+  justify-content: space-around;
+  display: flex;
+  margin: 0 auto;
+  height: 120vh;
+}
+.wrapper-left {
+  /* border: 2px solid red;*/
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.welcome-intro {
+  color: #070647;
+}
+.wrapper-right {
+  /*border: 2px solid blue;*/
+  width: 50%;
+  height: 110vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.wrapper-right-1 img {
+  float: right;
+}
+.wrapper-right-2 img {
+  float: right;
+}
+.services-we-offer {
+  text-align: center;
+  color: #070647;
+  font-size: 1.5rem;
+}
+.section-1 {
+  /* border: 2px solid black;*/
+  width: 95%;
+  justify-content: space-between;
+  display: flex;
+  height: 90vh;
+}
+.section-image {
+  /*border: 2px solid blue;*/
+  width: 55%;
+  background-image: url("img/Vector\ 1.png");
+  background-repeat: no-repeat;
+}
+.section-special {
+  object-fit: cover;
+  width: 75%;
+  bottom: 6rem;
+  left: 8rem;
+  position: relative;
+}
+.acess-wrapper {
+  /*border: 2px solid pink;*/
+  width: 40%;
+  margin-top: 6rem;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section-2 {
+  /* border: 2px solid purple;*/
+  width: 100%;
+  margin-top: 2rem;
+  justify-content: space-between;
+  display: flex;
+  height: 90vh;
+}
+.acess-to h1 {
+  color: #070647;
+}
+.section-2-description {
+  /*border: 2px solid yellow;*/
+  width: 40%;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  margin-top: 5rem;
+}
+.image-3 {
+  /*border: 2px solid green;*/
+  width: 50%;
+  background-image: url("img/vector3.png");
+  background-repeat: no-repeat;
+  background-size: 900px 800px;
+}
+.image3-3 {
+  position: relative;
+  right: 5rem;
+  top: 4rem;
+  width: 100%;
+}
+.section-4 {
+  /* border: 2px solid red;*/
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  height: 90vh;
+}
+.qucikhealth-naturapath h4 {
+  line-height: 1.5rem;
+  font-weight: lighter;
+}
+.qucikhealth-naturapath-2 {
+  line-height: 1.5rem;
+  font-weight: lighter;
+}
+.learn-more {
+  border: 2px solid #070647;
+  padding: 15px;
+  border-radius: 50rem;
+}
+.learn-more-2 {
+  background-color: #2fa5a9;
+  border: 2px solid #2fa5a9;
+  padding: 15px;
+  border-radius: 50rem;
+}
+
+.learn-more a {
+  color: black;
+}
+.learn-more-2 a {
+  color: white;
+}
+.learn-more-2 a:hover {
+  color: #070647;
+}
+.section-4-image {
+  /*border: 2px solid black;*/
+  width: 50%;
+  height: 80vh;
+  background-image: url("img/Vector4.png");
+  background-repeat: no-repeat;
+}
+.section4image {
+  position: relative;
+  top: 7rem;
+  left: 8.5rem;
+}
+.section-4-description {
+  margin-top: 4rem;
+  /*border: 2px solid yellow;*/
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-around;
+}
+.why-use h1 {
+  /*border: 2px solid pink;*/
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #070647;
+}
+.next-to-footer {
+  /*border: 2px solid black;*/
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+.sub-footer {
+  /* border: 2px solid chartreuse;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer {
+  border: 2px solid #413c98;
+  display: flex;
+  background-color: #413c98;
+  height: 60vh;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+.footer-resolve {
+  /*border: 2px solid black;*/
+  width: 20%;
+  text-align: center;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.useful-links a {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.medical-appointment h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #070647;
+}
+.mobile-resolve h4 {
+  font-weight: lighter;
+}
+@media screen and (max-width: 900px) {
+  #sign-in{
+    border-radius: 0rem;
+  }
+  .ways{
+    flex-direction: column;
+  }
+  .sub-way{
+   width: 80%;
+   margin: 0 auto;
+   margin-bottom: 3rem;
+   padding: 5% 3%;
+  }
+  .journey-way{
+    background-image: none;
+  }
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+  }
+
+  .menu a {
+    border-bottom: 1px solid white;
+    display: block;
+    position: relative;
+    clear: right;
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    line-height: 50px;
+    width: 70%;
+    background-color: #2fa5a9;
+  }
+
+  .logo img {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
+
+  .top-wrapper {
+    /* border: 2px solid green;*/
+    width: 100%;
+    padding-top: 2rem;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+  }
+  .wrapper-left {
+    /* border: 2px solid red;*/
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .qucikhealth-naturapath-2 {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .wrapper-right {
+    /*border: 2px solid blue;*/
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .welcome-intro {
+    text-align: center;
+  }
+  .description {
+    text-align: center;
+  }
+  .get-started {
+    text-align: center;
+  }
+  .wrapper-right-2 img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .section-1 {
+    /*border: 2px solid black;*/
+    width: 95%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .section-image {
+    /*border: 2px solid blue;*/
+    width: 100%;
+    background-image: url("img/Vector\ 1.png");
+    background-repeat: no-repeat;
+  }
+  .section-special {
+    object-fit: cover;
+    width: 70%;
+    bottom: 6rem;
+    left: 4rem;
+    position: relative;
+  }
+  .acess-wrapper {
+    /* border: 2px solid pink;*/
+    width: 100%;
+    text-align: center;
+    margin-top: 6rem;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .section-2 {
+    /*border: 2px solid purple;*/
+    width: 100%;
+    text-align: center;
+    float: none;
+    justify-content: space-between;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .section-2-description {
+    /* border: 2px solid yellow;*/
+    width: 90%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+
+    padding-bottom: 3rem;
+    margin-top: 5rem;
+  }
+  .image-3 {
+    /*border: 2px solid green;*/
+    width: 100%;
+    padding-top: 3rem;
+    background-image: url("img/vector3.png");
+    background-repeat: no-repeat;
+    background-size: 900px 800px;
+  }
+  .image3-3 {
+    position: relative;
+    top: 0rem;
+    right: 0rem;
+  }
+  .section-4 {
+    /*border: 2px solid red;*/
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+    height: auto;
+  }
+  .section-4-image {
+    /*border: 2px solid black;*/
+    width: 100%;
+    height: auto;
+    background-image: url("img/Vector4.png");
+    background-repeat: no-repeat;
+  }
+  .section4image {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+  }
+  .section-4-description {
+    margin-top: 4rem;
+    text-align: center;
+    /*border: 2px solid yellow;*/
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-around;
+  }
+  .next-to-footer {
+    /*border: 2px solid black;*/
+    width: 100%;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .sub-footer {
+    /*border: 2px solid chartreuse;*/
+    display: flex;
+    padding-top: 2rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer {
+    /*border: 2px solid peru;*/
+    display: flex;
+    height: auto;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  .footer-resolve {
+    /*border: 2px solid black;*/
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .useful-links a {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .medical-appointment h3 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #070647;
+  }
+  .mobile-resolve h4 {
+    font-weight: lighter;
+  }
+  .why-use h1 {
+    /*border: 2px solid pink;*/
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #070647;
+  }
+  .acess-to h1 {
+    color: #070647;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .qucikhealth-naturapath h4 {
+    line-height: 25px;
+    text-align: center;
+    font-weight: lighter;
+  }
+  .services-we-offer {
+    text-align: center;
+    color: #070647;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .welcome-intro h1 {
+    font-size: x-large;
+  }
+}
